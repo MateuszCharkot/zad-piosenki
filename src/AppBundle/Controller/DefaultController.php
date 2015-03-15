@@ -27,8 +27,6 @@ class DefaultController extends Controller
 
     /*
      * A
-     */
-
     /**
      * @Route("/autobiografia.html", name="autobiografia")
      */
@@ -129,6 +127,13 @@ public function goradolAction()
     /*
      * H
      */
+     /**
+     * @Route("/obcy.html", name="obcy")
+     */
+    public function  obcyAction()
+    {
+        return $this->render('obcy.html.twig');
+    }
 
     /*
      * I
