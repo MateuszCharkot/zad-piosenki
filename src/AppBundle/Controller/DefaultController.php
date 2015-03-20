@@ -300,6 +300,16 @@ public function  SenowarszawieAction()
 {
     return $this->render('default/Senowarszawie.html.twig');
 }
+/*
+ * charkotobcy
+ */
+/**
+ * @Route("/obcy.html", name="obcy")
+ */
+public function  obcyAction()
+{
+    return $this->render('default/obcy.html.twig');
+}
 
 
 }
