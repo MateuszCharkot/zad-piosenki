@@ -301,7 +301,7 @@ public function  SenowarszawieAction()
     return $this->render('default/Senowarszawie.html.twig');
 }
 /*
- * charkotjolka
+ * charkot
  */
 /**
  * @Route("/jolka.html", name="jolka")
