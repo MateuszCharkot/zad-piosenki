@@ -289,6 +289,13 @@ public function  whiskyAction()
     /*
      * Y
      */
+     /**
+    * @Route("/obcy.html", name="obcy")
+    */
+    public function  obcyAction()
+    {
+    return $this->render('default/obcy.html.twig');
+    }
 
     /*
      * Z
