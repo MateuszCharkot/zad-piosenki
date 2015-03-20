@@ -263,6 +263,13 @@ public function korowodyAction()
     /*
      * T
      */
+     /**
+     * @Route("/jolka.html", name="jolka")
+     */
+    public function jolkaAction() 
+            {
+        return $this->render('default/jolka.html.twig');
+    }
 
     /*
      * U
